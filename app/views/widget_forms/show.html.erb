@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Background color:</strong>
+  <%= @widget_form.background_color %>
+</p>
+
+<p>
+  <strong>Title text:</strong>
+  <%= @widget_form.title_text %>
+</p>
+
+<%= link_to 'Edit', edit_widget_form_path(@widget_form) %> |
+<%= link_to 'Back', widget_forms_path %>
