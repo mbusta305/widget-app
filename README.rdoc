@@ -1,28 +1,9 @@
-== README
+In this repo:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Made a new rails app called widget_app
+App has 3 models Users, Payments & WidgetForm
+Users is able to log in using bcrypt!
+Users has Payments
+Users has WidgetForms & can only see THEIR OWN widget forms
+WidgetForm has a field called background_color & title_text
+You should NOT be able to update payments from a browser!
